@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  
+  --color-bori-red: #B91C1C;
+  --color-bori-yellow: #FACC15;
+  --color-bori-green: #15803D;
+  --color-bori-warm: #FFFBEB;
+}
+
+@layer base {
+  body {
+    @apply bg-bori-warm text-stone-900 selection:bg-bori-yellow/30;
+  }
+}
+
