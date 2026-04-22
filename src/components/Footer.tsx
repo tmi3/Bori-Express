@@ -39,7 +39,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-stone-900 mb-6">{t({ en: 'Location', es: 'Ubicación' })}</h4>
             <p className="text-stone-500 mb-4">{BUSINESS_INFO.address}</p>
-            <p className="text-stone-900 font-bold">{BUSINESS_INFO.phoneFormatted}</p>
+            <p className="text- stone-900 font-bold">{BUSINESS_INFO.phoneFormatted}</p>
           </div>
         </div>
 
